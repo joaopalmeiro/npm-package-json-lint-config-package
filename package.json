@@ -1,0 +1,49 @@
+{
+  "name": "npm-package-json-lint-config-package",
+  "version": "0.0.0",
+  "private": false,
+  "description": "Shareable npm-package-json-lint configuration for packages.",
+  "keywords": [
+    "lint",
+    "linter",
+    "package.json",
+    "npm-package-json-lint",
+    "npm-package-json-lintconfig",
+    "npm-package-json-lint-config"
+  ],
+  "homepage": "https://github.com/joaopalmeiro/npm-package-json-lint-config-package",
+  "bugs": {
+    "url": "https://github.com/joaopalmeiro/npm-package-json-lint-config-package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaopalmeiro/npm-package-json-lint-config-package.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "João Palmeiro",
+    "email": "jm.palmeiro@campus.fct.unl.pt",
+    "url": "https://github.com/joaopalmeiro"
+  },
+  "scripts": {
+    "format": "run-s format:pkgJson format:code",
+    "format:code": "prettier . --write",
+    "format:pkgJson": "sort-package-json",
+    "lint": "run-s lint:pkgJson lint:publint",
+    "lint:pkgJson": "npmPkgJsonLint .",
+    "lint:publint": "publint --strict"
+  },
+  "devDependencies": {
+    "npm-package-json-lint": "7.1.0",
+    "npm-run-all2": "6.1.2",
+    "prettier": "3.2.5",
+    "publint": "0.2.7",
+    "sort-package-json": "2.8.0"
+  },
+  "peerDependencies": {
+    "npm-package-json-lint": ">=7.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
