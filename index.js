@@ -1,4 +1,4 @@
-const defaultConfig = {
+const config = {
   rules: {
     "require-author": "error",
     "require-bugs": "error",
@@ -53,4 +53,4 @@ const defaultConfig = {
   },
 };
 
-module.exports = defaultConfig;
+module.exports = config;
