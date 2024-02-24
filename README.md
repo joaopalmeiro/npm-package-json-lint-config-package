@@ -25,3 +25,36 @@ npm run lint
 ```bash
 npm run format
 ```
+
+## Deployment
+
+```bash
+npm pack --dry-run
+```
+
+```bash
+npm version patch
+```
+
+```bash
+npm version minor
+```
+
+```bash
+npm version major
+```
+
+- Update the version in the `Licenses` link at the top.
+- Commit and push changes.
+- Create a tag on [GitHub Desktop](https://github.blog/2020-05-12-create-and-push-tags-in-the-latest-github-desktop-2-5-release/).
+- Check [GitHub](https://github.com/joaopalmeiro/npm-package-json-lint-config-package/tags).
+
+```bash
+npm login
+```
+
+```bash
+npm publish
+```
+
+- Check [npm](https://www.npmjs.com/package/npm-package-json-lint-config-package).
