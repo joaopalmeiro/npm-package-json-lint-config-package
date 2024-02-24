@@ -1,6 +1,6 @@
 {
   "name": "npm-package-json-lint-config-package",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": false,
   "description": "Shareable npm-package-json-lint configuration for packages.",
   "keywords": [

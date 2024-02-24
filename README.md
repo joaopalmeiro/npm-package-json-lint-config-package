@@ -4,7 +4,7 @@ Shareable [npm-package-json-lint](https://npmpackagejsonlint.org/) configuration
 
 - [Source code](https://github.com/joaopalmeiro/npm-package-json-lint-config-package)
 - [npm package](https://www.npmjs.com/package/npm-package-json-lint-config-package)
-- [Licenses](https://licenses.dev/npm/npm-package-json-lint-config-package/0.0.0)
+- [Licenses](https://licenses.dev/npm/npm-package-json-lint-config-package/0.1.0)
 
 ## Getting Started
 
