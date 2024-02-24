@@ -54,7 +54,7 @@ To use this configuration, choose one of the options below.
 }
 ```
 
-Check the [npm-package-json-lint documentation](https://npmpackagejsonlint.org/docs/configuration#configuration-override) to learn how to override this configuration.
+Check the [npm-package-json-lint documentation](https://npmpackagejsonlint.org/docs/configuration#configuration-override) or the [@stylelint/npm-package-json-lint-config package](https://github.com/stylelint/npm-package-json-lint-config/blob/5.0.1/lib/npm-package-json-lint-config.js) to learn how to override this configuration.
 
 ## Development
 
