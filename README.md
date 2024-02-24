@@ -1,6 +1,6 @@
 # npm-package-json-lint-config-package
 
-Shareable npm-package-json-lint configuration for packages.
+Shareable [npm-package-json-lint](https://npmpackagejsonlint.org/) configuration for packages.
 
 - [Source code](https://github.com/joaopalmeiro/npm-package-json-lint-config-package)
 - [npm package](https://www.npmjs.com/package/npm-package-json-lint-config-package)

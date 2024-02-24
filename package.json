@@ -25,6 +25,8 @@
     "email": "jm.palmeiro@campus.fct.unl.pt",
     "url": "https://github.com/joaopalmeiro"
   },
+  "main": "index.js",
+  "files": [],
   "scripts": {
     "format": "run-s format:pkgJson format:code",
     "format:code": "prettier . --write",
